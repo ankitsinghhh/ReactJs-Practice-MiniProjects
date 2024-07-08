@@ -18,6 +18,15 @@ Below is the list of projects and their respective links:
   </a>
 </div>
 
+### Project 2: Generate Random hex & RGB color
+
+<div style="display: flex; justify-content: space-between; align-items: center; gap:2rem">
+    <img src="/2_setRandomColor\setrandomhexandrgbcolor.png" alt="Project 1" style="width: 200px; height: auto; margin-right: 20px;">
+    <a href="https://random-hex-rgb-color-generator-ankit.netlify.app/">     &#x1F517; https://random-hex-rgb-color-generator-ankit.netlify.app/
+    
+  </a>
+</div>
+
 <!-- ### Project 2: [Project Title]
 [Link to Project 2]
 
