@@ -28,13 +28,25 @@ Below is the list of projects and their respective links:
 </div>
 
 
-### Project 3: Generate Random hex & RGB color
+### Project 3: Star-Rating
 
 <div style="display: flex; justify-content: space-between; align-items: center; gap:2rem">
     <img src="\3_star_rating\star_rating.png" alt="Project 3" style="width: 200px; height: auto; margin-right: 20px;">
     <a href="https://star-rating-ankit.netlify.app/">     &#x1F517; https://star-rating-ankit.netlify.app/
   </a>
 </div>
+
+
+### Project 4: ImageSlider
+
+<div style="display: flex; justify-content: space-between; align-items: center; gap:2rem">
+    <img src="\4_image_slider\ImageSlider.png" alt="Project 4" style="width: 200px; height: auto; margin-right: 20px;">
+    <a href="https://imageslider-ankit.netlify.app/">     &#x1F517; https://imageslider-ankit.netlify.app/
+  </a>
+</div>
+
+
+
 
 <!-- ### Project 2: [Project Title]
 [Link to Project 2]
