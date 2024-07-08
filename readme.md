@@ -6,8 +6,15 @@ Welcome to my React projects repository! This repository contains various projec
 
 Below is the list of projects and their respective links:
 
-### Project 1: [Accordion]
-[https://accordion-reactjs-ankit.netlify.app/]
+<!-- ### Project 1: [Accordion]
+[https://accordion-reactjs-ankit.netlify.app/] -->
+
+### Project 1: [Project Title]
+
+<div style="display: flex; align-items: center;">
+    <img src="\1_Accordion\AccordionSite.png" alt="Project 1" style="width: 200px; height: auto; margin-right: 20px;">
+    <a href="https://accordion-reactjs-ankit.netlify.app/">https://accordion-reactjs-ankit.netlify.app/</a>
+</div>
 
 <!-- ### Project 2: [Project Title]
 [Link to Project 2]
