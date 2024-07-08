@@ -13,7 +13,7 @@ Below is the list of projects and their respective links:
 
 <div style="display: flex; justify-content: space-between; align-items: center; gap:2rem">
     <img src="\1_Accordion\AccordionSite.png" alt="Project 1" style="width: 200px; height: auto; margin-right: 20px;">
-    <a href="https://accordion-reactjs-ankit.netlify.app/">     &#x1F517; Click to View
+    <a href="https://accordion-reactjs-ankit.netlify.app/">     &#x1F517; https://accordion-reactjs-ankit.netlify.app/
     
   </a>
 </div>
