@@ -40,7 +40,7 @@ Below is the list of projects and their respective links:
 ### Project 4: ImageSlider
 
 <div style="display: flex; justify-content: space-between; align-items: center; gap:2rem">
-    <img src="\4_image_slider\ImageSlider.png" alt="Project 4" style="width: 200px; height: auto; margin-right: 20px;">
+    <img src="\4_image_slider\imageSlider.png" alt="Project 4" style="width: 200px; height: auto; margin-right: 20px;">
     <a href="https://imageslider-ankit.netlify.app/">     &#x1F517; https://imageslider-ankit.netlify.app/
   </a>
 </div>
