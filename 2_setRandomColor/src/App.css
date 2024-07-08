@@ -1,0 +1,37 @@
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+
+}
+
+.colorname{
+  font-size: 50px;
+  text-transform: uppercase;
+  font-weight:bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.colortype{
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight:bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button {
+  margin-right: 5px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  background-color: white;
+  cursor: pointer;
+  transition: all 0.3s;
+ 
+}
+button:hover{
+  background-color: blanchedalmond;
+  transform: scale(1.05);
+  
+}
