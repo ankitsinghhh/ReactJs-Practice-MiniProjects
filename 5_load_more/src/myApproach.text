@@ -1,0 +1,143 @@
+import { useState, useEffect } from 'react'
+import reactLogo from './assets/react.svg'
+import viteLogo from '/vite.svg'
+import './App.css'
+
+function App() {
+  // const [count, setCount] = useState(0)
+
+  const [loading, setLoading] = useState(false)
+  const [products, setProducts] = useState([]);
+  const [count, setCount] = useState(20)
+  
+
+  // const url = "https://dummyjson.com/products?limit=100"
+  const url = "https://dummyjson.com/products"
+
+  async function fetchData(url) {
+    try {
+      setLoading(true)
+      const response = await fetch(`${url}?limit=${count}`)
+      const data = await response.json()
+      const productsData = data.products
+      console.log(productsData)
+      setProducts(productsData)
+      
+      setLoading(false)
+    } catch (error) {
+      console.error('Error:', error)
+      setLoading(false)
+    }
+  }
+
+  function loadhandle() {
+    setCount(count + 20)
+
+  }
+
+
+  useEffect(() => {
+    if (url) {
+      fetchData(url)
+    }
+  }, [url,count])
+
+  if (loading) {
+    return <div>Loading...</div>
+  }
+
+  return (
+    <>
+      <div className="wrapper">
+
+        <h1 className='head'>Product Scroll</h1>
+        <p>Total Items: { count }</p>
+        <div className="container">
+
+          {
+            products.map(product => (
+              <div key={product.id} className='productContainer' >
+
+                <h1>{product.title}</h1>
+                <img src={product.thumbnail} alt={product.title} />
+                <div className='brand-price' >
+                  <p>Brandname: {product.brand}</p>
+                  <p>Price : {product.price} $ </p>
+                </div>
+
+              </div>
+            ))
+          }
+        </div>
+        {
+          count>=100 ? (<div>No more Data</div>) : ( <button onClick={loadhandle}>Load More</button> ) 
+        }
+      </div>
+    </>
+  )
+}
+
+export default App
+
+
+app.css below 
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color: aliceblue;
+}
+
+.container{
+    /* position: relative; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100%;
+    
+    
+   
+}
+
+.productContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 8px 10px;
+    padding: 15px;
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 100px ;
+}
+
+img{
+    width: 70%;
+    
+    border-radius: 10px;
+}
+
+.head{
+    text-align: center;
+    margin: 10px;
+}
+
+button{
+    margin-right: 5px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: red;
+    color:white;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+

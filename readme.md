@@ -46,6 +46,15 @@ Below is the list of projects and their respective links:
 </div>
 
 
+### Project 5: Load More Data 
+
+<div style="display: flex; justify-content: space-between; align-items: center; gap:2rem">
+    <img src="\5_load_more\LoadMoreData.png" alt="Project 4" style="width: 200px; height: auto; margin-right: 20px;">
+    <a href="https://load-more-data-ankit.netlify.app/">     &#x1F517; https://load-more-data-ankit.netlify.app/
+  </a>
+</div>
+
+
 
 
 <!-- ### Project 2: [Project Title]
