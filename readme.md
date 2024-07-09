@@ -73,6 +73,15 @@ Below is the list of projects and their respective links:
 </div>
 
 
+### Project 7: Light Dark Theme Local Storage
+
+<div style="display: flex; justify-content: space-between; align-items: center; gap:2rem">
+    <img src="8_light-dark-mode\Light-dark-theme.gif" alt="Project 8" style="width: 200px; height: auto; margin-right: 20px;">
+    <a href="https://lightdarktheme-ankit.netlify.app/">     &#x1F517; https://lightdarktheme-ankit.netlify.app/
+  </a>
+</div>
+
+
 <!-- -->
 
 <!-- ### Project 2: [Project Title]
