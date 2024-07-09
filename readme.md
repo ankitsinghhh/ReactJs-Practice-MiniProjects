@@ -64,6 +64,15 @@ Below is the list of projects and their respective links:
 </div>
 
 
+### Project 7: QR Code Generator
+
+<div style="display: flex; justify-content: space-between; align-items: center; gap:2rem">
+    <img src="7_QRcodeGenerator\qrGenerator.png" alt="Project 7" style="width: 200px; height: auto; margin-right: 20px;">
+    <a href="https://qr-generator-ankit.netlify.app/">     &#x1F517; https://qr-generator-ankit.netlify.app/
+  </a>
+</div>
+
+
 <!-- -->
 
 <!-- ### Project 2: [Project Title]
