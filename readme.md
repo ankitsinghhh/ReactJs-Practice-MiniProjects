@@ -55,7 +55,7 @@ Below is the list of projects and their respective links:
 </div>
 
 
-### Project 5: Load More Data 
+### Project 6: Dynamic Navigation Menu
 
 <div style="display: flex; justify-content: space-between; align-items: center; gap:2rem">
     <img src="\6_dynamic_navigation_menu\dynamic-navigation-menu.png " alt="Project 6" style="width: 200px; height: auto; margin-right: 20px;">
