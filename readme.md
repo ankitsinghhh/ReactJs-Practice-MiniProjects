@@ -49,13 +49,22 @@ Below is the list of projects and their respective links:
 ### Project 5: Load More Data 
 
 <div style="display: flex; justify-content: space-between; align-items: center; gap:2rem">
-    <img src="\5_load_more\LoadMoreData.png" alt="Project 4" style="width: 200px; height: auto; margin-right: 20px;">
+    <img src="\5_load_more\LoadMoreData.png" alt="Project 5" style="width: 200px; height: auto; margin-right: 20px;">
     <a href="https://load-more-data-ankit.netlify.app/">     &#x1F517; https://load-more-data-ankit.netlify.app/
   </a>
 </div>
 
 
+### Project 5: Load More Data 
 
+<div style="display: flex; justify-content: space-between; align-items: center; gap:2rem">
+    <img src="\6_dynamic_navigation_menu\dynamic-navigation-menu.png " alt="Project 6" style="width: 200px; height: auto; margin-right: 20px;">
+    <a href="https://dynamic-navigation-menu-ankit.netlify.app/">     &#x1F517; https://dynamic-navigation-menu-ankit.netlify.app/
+  </a>
+</div>
+
+
+<!-- -->
 
 <!-- ### Project 2: [Project Title]
 [Link to Project 2]
