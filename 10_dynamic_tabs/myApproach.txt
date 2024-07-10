@@ -1,0 +1,99 @@
+app.jsx 
+
+import { useState } from 'react'
+import reactLogo from './assets/react.svg'
+import viteLogo from '/vite.svg'
+import './App.css'
+
+function App() {
+  const [count, setCount] = useState(0)
+
+  const [tabselect, setTabSelect] = useState(1)
+
+  function tabHandler(tab){
+   
+    let prevTab = document.querySelector(`.tab${tabselect}`)
+    prevTab.classList.remove('active-tab')
+    let clickedTab = document.querySelector(`.tab${tab}`)
+    clickedTab.classList.toggle('active-tab') 
+    setTabSelect(tab)
+    
+  }
+
+  return (
+    <>
+      <div className="wrapper">
+        <div className="container">
+          <div className="tab-container">
+            <div onClick={()=>tabHandler(1)} className="tab tab1">
+              Tab 1
+            </div>
+            <div onClick={()=>tabHandler(2)} className="tab tab2">
+              Tab 2
+            </div>
+            <div onClick={()=>tabHandler(3)} className="tab tab3">
+              Tab 3
+            </div>
+          </div>
+          <div className="content-container">
+          {
+            tabselect === 1 ? (  <div className="content content1">
+             <h2 style={{color:"red"}}>This is Content 1</h2>
+            </div>) : (null)
+          }
+          {
+            tabselect === 2 ? (  <div className="content content2">
+             <h2 style={{color:"coral"}} >This is Content 2</h2>
+            </div>) : (null)
+          }
+          {
+            tabselect === 3? (  <div className="content content3">
+            <h2 style={{color:"blue"}} >This is Content 3</h2>
+            </div>) : (null)
+          }
+           
+          </div>
+        </div>
+      </div>
+    </>
+  )
+}
+
+export default App
+
+app.css 
+.wrapper{
+  width: 100vw;
+ 
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.tab-container{
+  background-color: purple;
+  display: flex;
+  width: max-content;
+
+  gap: 1rem;
+  transition: all 0.3s;
+ 
+}
+
+.tab{
+  padding:20px 20px;
+  font-weight: bold;
+  color:white;
+  cursor:pointer;
+ 
+ 
+}
+
+
+.content{
+  text-align: center;
+}
+
+.active-tab{
+  background-color: green;
+}

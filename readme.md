@@ -91,6 +91,15 @@ Below is the list of projects and their respective links:
 </div>
 
 
+### Project 10: Dynamic Tabs
+
+<div style="display: flex; justify-content: space-between; align-items: center; gap:2rem">
+    <img src="10_dynamic_tabs\dynamicTabs.png" alt="Project 10" style="width: 200px; height: auto; margin-right: 20px;">
+    <a href="https://dynamic-tabs-ankit.netlify.app/">     &#x1F517; https://dynamic-tabs-ankit.netlify.app/
+  </a>
+</div>
+
+
 
 
 

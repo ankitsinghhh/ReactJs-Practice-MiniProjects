@@ -5,6 +5,10 @@
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+body{
+  overflow-x: hidden;
+}
+
 .wrapper{
   background-image: linear-gradient(rgb(8, 160, 160),purple);
   width:100vw;
@@ -69,6 +73,7 @@ background-color: yellowgreen;
   border-radius: 10px;
   border: 1px solid;
   align-items: center;
+  box-shadow: 3px 3px 5px;
 
 }
 
@@ -78,4 +83,5 @@ background-color: yellowgreen;
 
 .data-item img{
   width:100px;
+  
 }
