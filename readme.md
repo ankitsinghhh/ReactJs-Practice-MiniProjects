@@ -82,6 +82,19 @@ Below is the list of projects and their respective links:
 </div>
 
 
+### Project 9: Custom Scroll Indicator
+
+<div style="display: flex; justify-content: space-between; align-items: center; gap:2rem">
+    <img src="9_scroll_indicator\customScroll.png" alt="Project 9" style="width: 200px; height: auto; margin-right: 20px;">
+    <a href="https://custom-scroll-indicator-ankit.netlify.app/">     &#x1F517; https://custom-scroll-indicator-ankit.netlify.app/
+  </a>
+</div>
+
+
+
+
+
+
 <!-- -->
 
 <!-- ### Project 2: [Project Title]
