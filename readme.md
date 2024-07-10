@@ -109,6 +109,15 @@ Below is the list of projects and their respective links:
 </div>
 
 
+### Project 12: Github Profile Finder
+
+<div style="display: flex; justify-content: space-between; align-items: center; gap:2rem">
+    <img src="12_githubProfileFinder\githubProflieFinder.png" alt="Project 12" style="width: 200px; height: auto; margin-right: 20px;">
+    <a href="https://github-profile-finder-ankit.netlify.app/">     &#x1F517; https://github-profile-finder-ankit.netlify.app/
+  </a>
+</div>
+
+
 
 
 
