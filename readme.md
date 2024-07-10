@@ -118,6 +118,24 @@ Below is the list of projects and their respective links:
 </div>
 
 
+### Project 13: Search Auto Complete with API
+
+<div style="display: flex; justify-content: space-between; align-items: center; gap:2rem">
+    <img src="13_searchAutoComplete\searchAutocmplt.gif" alt="Project 13" style="width: 200px; height: auto; margin-right: 20px;">
+    <a href="https://search-auto-complete-ankit.netlify.app/">     &#x1F517; https://search-auto-complete-ankit.netlify.app/
+  </a>
+</div>
+
+
+### Project 14: Tic Tac Toe with React
+
+<div style="display: flex; justify-content: space-between; align-items: center; gap:2rem">
+    <img src="13_searchAutoComplete\searchAutocmplt.gif" alt="Project 13" style="width: 200px; height: auto; margin-right: 20px;">
+    <a href="https://search-auto-complete-ankit.netlify.app/">     &#x1F517; https://search-auto-complete-ankit.netlify.app/
+  </a>
+</div>
+
+
 
 
 
