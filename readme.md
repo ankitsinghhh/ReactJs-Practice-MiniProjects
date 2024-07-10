@@ -12,7 +12,7 @@ Below is the list of projects and their respective links:
 ### Project 1: Accordion
 
 <div style="display: flex; justify-content: space-between; align-items: center; gap:2rem">
-    <img src="\1_Accordion\AccordionSite.png" alt="Project 1" style="width: 200px; height: auto; margin-right: 20px;">
+    <img src="\01_Accordion\AccordionSite.png" alt="Project 1" style="width: 200px; height: auto; margin-right: 20px;">
     <a href="https://accordion-reactjs-ankit.netlify.app/">     &#x1F517; https://accordion-reactjs-ankit.netlify.app/
     
   </a>
@@ -21,7 +21,7 @@ Below is the list of projects and their respective links:
 ### Project 2: Generate Random hex & RGB color
 
 <div style="display: flex; justify-content: space-between; align-items: center; gap:2rem">
-    <img src="\2_setRandomColor\setrandomhexandrgbcolor.png" alt="Project 2" style="width: 200px; height: auto; margin-right: 20px;">
+    <img src="\02_setRandomColor\setrandomhexandrgbcolor.png" alt="Project 2" style="width: 200px; height: auto; margin-right: 20px;">
     <a href="https://random-hex-rgb-color-generator-ankit.netlify.app/">     &#x1F517; https://random-hex-rgb-color-generator-ankit.netlify.app/
     
   </a>
@@ -31,7 +31,7 @@ Below is the list of projects and their respective links:
 ### Project 3: Star-Rating
 
 <div style="display: flex; justify-content: space-between; align-items: center; gap:2rem">
-    <img src="\3_star_rating\star_rating.png" alt="Project 3" style="width: 200px; height: auto; margin-right: 20px;">
+    <img src="\03_star_rating\star_rating.png" alt="Project 3" style="width: 200px; height: auto; margin-right: 20px;">
     <a href="https://star-rating-ankit.netlify.app/">     &#x1F517; https://star-rating-ankit.netlify.app/
   </a>
 </div>
@@ -40,7 +40,7 @@ Below is the list of projects and their respective links:
 ### Project 4: ImageSlider
 
 <div style="display: flex; justify-content: space-between; align-items: center; gap:2rem">
-    <img src="\4_image_slider\imageSlider.png" alt="Project 4" style="width: 200px; height: auto; margin-right: 20px;">
+    <img src="\04_image_slider\imageSlider.png" alt="Project 4" style="width: 200px; height: auto; margin-right: 20px;">
     <a href="https://imageslider-ankit.netlify.app/">     &#x1F517; https://imageslider-ankit.netlify.app/
   </a>
 </div>
@@ -49,7 +49,7 @@ Below is the list of projects and their respective links:
 ### Project 5: Load More Data 
 
 <div style="display: flex; justify-content: space-between; align-items: center; gap:2rem">
-    <img src="\5_load_more\LoadMoreData.png" alt="Project 5" style="width: 200px; height: auto; margin-right: 20px;">
+    <img src="\05_load_more\LoadMoreData.png" alt="Project 5" style="width: 200px; height: auto; margin-right: 20px;">
     <a href="https://load-more-data-ankit.netlify.app/">     &#x1F517; https://load-more-data-ankit.netlify.app/
   </a>
 </div>
@@ -58,7 +58,7 @@ Below is the list of projects and their respective links:
 ### Project 6: Dynamic Navigation Menu
 
 <div style="display: flex; justify-content: space-between; align-items: center; gap:2rem">
-    <img src="\6_dynamic_navigation_menu\dynamic-navigation-menu.png " alt="Project 6" style="width: 200px; height: auto; margin-right: 20px;">
+    <img src="\06_dynamic_navigation_menu\dynamic-navigation-menu.png " alt="Project 6" style="width: 200px; height: auto; margin-right: 20px;">
     <a href="https://dynamic-navigation-menu-ankit.netlify.app/">     &#x1F517; https://dynamic-navigation-menu-ankit.netlify.app/
   </a>
 </div>
@@ -67,7 +67,7 @@ Below is the list of projects and their respective links:
 ### Project 7: QR Code Generator
 
 <div style="display: flex; justify-content: space-between; align-items: center; gap:2rem">
-    <img src="7_QRcodeGenerator\qrGenerator.png" alt="Project 7" style="width: 200px; height: auto; margin-right: 20px;">
+    <img src="07_QRcodeGenerator\qrGenerator.png" alt="Project 7" style="width: 200px; height: auto; margin-right: 20px;">
     <a href="https://qr-generator-ankit.netlify.app/">     &#x1F517; https://qr-generator-ankit.netlify.app/
   </a>
 </div>
@@ -76,7 +76,7 @@ Below is the list of projects and their respective links:
 ### Project 8: Light Dark Theme Local Storage
 
 <div style="display: flex; justify-content: space-between; align-items: center; gap:2rem">
-    <img src="8_light-dark-mode\Light-dark-theme.gif" alt="Project 8" style="width: 200px; height: auto; margin-right: 20px;">
+    <img src="08_light-dark-mode\Light-dark-theme.gif" alt="Project 8" style="width: 200px; height: auto; margin-right: 20px;">
     <a href="https://lightdarktheme-ankit.netlify.app/">     &#x1F517; https://lightdarktheme-ankit.netlify.app/
   </a>
 </div>
@@ -85,7 +85,7 @@ Below is the list of projects and their respective links:
 ### Project 9: Custom Scroll Indicator
 
 <div style="display: flex; justify-content: space-between; align-items: center; gap:2rem">
-    <img src="9_scroll_indicator\customScroll.png" alt="Project 9" style="width: 200px; height: auto; margin-right: 20px;">
+    <img src="09_scroll_indicator\customScroll.png" alt="Project 9" style="width: 200px; height: auto; margin-right: 20px;">
     <a href="https://custom-scroll-indicator-ankit.netlify.app/">     &#x1F517; https://custom-scroll-indicator-ankit.netlify.app/
   </a>
 </div>
