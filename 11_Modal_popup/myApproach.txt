@@ -1,0 +1,224 @@
+app.jsx
+
+import { useState } from 'react'
+
+import './App.css'
+import Modal from './components/Modal'
+
+
+function App() {
+
+  const [modal, setModal] = useState(false)
+
+
+
+  return (
+    <>
+    <div className="wrapper">
+
+    <div className="content">
+    <button  onClick={()=>setModal(true)} > Click to Open Modal </button>
+      {
+        modal && <Modal  setModal={setModal} modal={modal}  />
+      }
+    </div>
+
+    </div>
+    </>
+  )
+}
+
+export default App
+
+
+
+modal.jsx
+import React from 'react'
+import { useState,useEffect } from 'react';
+import { FaRegWindowClose } from "react-icons/fa";
+
+
+const Modal = ({setModal}) => {
+
+    const [active,setActive]=useState(false)
+
+useEffect(()=>{
+    setActive(true)
+} ,[active])
+
+
+
+  return (
+    <div>
+
+        <div className="modal">
+            <div  className={`modal-box ${active ? 'active': ''}`}>
+                <header className="modal-header">
+                    <p>Customized Header</p>
+                </header>
+                <section className="modal-body">
+                    Customized Body
+                </section>
+                <footer className="modal-footer">
+                    Customized Footer
+                </footer>
+                <div>
+                <FaRegWindowClose className='close-icon' onClick={()=>setModal(false)} />
+
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+  )
+}
+
+export default Modal
+
+
+app.css
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.wrapper{
+  position: relative;
+  width:100vw;
+  height: 100vh;
+
+  
+
+
+
+
+
+}
+
+button{
+  padding: 10px 20px;
+  border-radius: 3px;
+  border:none;
+  background-color: aquamarine;
+
+  font-weight: bold;
+  cursor: pointer;
+  transition : all 0.3s;
+  width: max-content;
+  
+  
+}
+button:hover{
+  background-color: rgb(90, 241, 191);
+  transform: scale(1.05);
+  box-shadow: 3px 3px 18px rgb(226, 223, 223);
+}
+
+.modal{
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top:0px;
+  background-color: rgb(171, 215, 83);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+
+
+
+}
+
+
+.modal-header{
+  font-size: 40px;
+  font-weight: bold;
+  height: 120px;
+  color:white;
+  width: 100%;
+  background-color: rgb(13, 174, 13);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-body{
+  height: 230px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-footer{
+  font-size: 35px;
+  font-weight: bold;
+  height: 90px;
+  color:white;
+  background-color:  rgb(13, 174, 13);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.close-icon{
+  font-size: 30px;
+  color:white;
+  position: absolute;
+  top:10px;
+  right: 10px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.close-icon:hover{
+  color: red;
+  transform: scale(1.05) ;
+
+}
+
+button{
+  cursor: pointer;
+
+}
+
+
+
+
+ @keyframes slideIn {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.modal-box {
+  position: relative;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  border: 1px solid red;
+  opacity: 0;
+  transform: translateY(-100%);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.modal-box.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+

@@ -100,6 +100,15 @@ Below is the list of projects and their respective links:
 </div>
 
 
+### Project 11: Open Modal Pop-Up
+
+<div style="display: flex; justify-content: space-between; align-items: center; gap:2rem">
+    <img src="11_Modal_popup\openModalPopup.gif" alt="Project 11" style="width: 200px; height: auto; margin-right: 20px;">
+    <a href="https://open-modal-popup-ankit.netlify.app/">     &#x1F517; https://open-modal-popup-ankit.netlify.app/
+  </a>
+</div>
+
+
 
 
 
