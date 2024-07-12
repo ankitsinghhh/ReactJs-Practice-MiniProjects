@@ -130,10 +130,28 @@ Below is the list of projects and their respective links:
 ### Project 14: Tic Tac Toe with React
 
 <div style="display: flex; justify-content: space-between; align-items: center; gap:2rem">
-    <img src="14_tictaetoe\tictactoe.png"Project 14" style="width: 200px; height: auto; margin-right: 20px;">
+    <img src="14_tictaetoe\tictactoe.png" alt="Project 14" style="width: 200px; height: auto; margin-right: 20px;">
     <a href="https://tic-tac-toe-using-react-ankit.netlify.app/">     &#x1F517; https://tic-tac-toe-using-react-ankit.netlify.app/
   </a>
+</div>   
+
+
+### Project 15: Custom Hooks
+
+<div style="display: flex; justify-content: space-between; align-items: center; gap:2rem">
+    <img src="15_Custom_Hooks\custom-hooks.png" alt="Project 15" style="width: 200px; height: auto; margin-right: 20px;">
+    <a href="https://custom-hook-react-ankit.netlify.app/">     &#x1F517; https://custom-hook-react-ankit.netlify.app/
+  </a>
 </div> 
+
+<!-- 
+### Project 15: Custom Hooks
+
+<div style="display: flex; justify-content: space-between; align-items: center; gap:2rem">
+    <img src="15_Custom_Hooks\custom-hooks.png" alt="Project 15" style="width: 200px; height: auto; margin-right: 20px;">
+    <a href="https://custom-hook-react-ankit.netlify.app/">     &#x1F517; https://custom-hook-react-ankit.netlify.app/
+  </a>
+</div>  -->
 
 
 
