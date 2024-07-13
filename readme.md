@@ -153,12 +153,21 @@ Below is the list of projects and their respective links:
   </a>
 </div> 
 
-<!-- 
-### Project 17: WeatherApp using React
+
+### Project 17: Todo Board
 
 <div style="display: flex; justify-content: space-between; align-items: center; gap:2rem">
-    <img src="17_Weather_App\weather-app.png" alt="Project 17" style="width: 200px; height: auto; margin-right: 20px;">
-    <a href="https://weather-app-react-ankit.netlify.app/">     &#x1F517; https://weather-app-react-ankit.netlify.app/
+    <img src="17_todo_board\todoboard.png" alt="Project 17" style="width: 200px; height: auto; margin-right: 20px;">
+    <a href="https://todo-board-ankit.netlify.app/">     &#x1F517; https://todo-board-ankit.netlify.app/
+  </a>
+</div> 
+
+
+<!-- ### Project 17: Todo Board
+
+<div style="display: flex; justify-content: space-between; align-items: center; gap:2rem">
+    <img src="17_todo_board\todoboard.png" alt="Project 17" style="width: 200px; height: auto; margin-right: 20px;">
+    <a href="https://todo-board-ankit.netlify.app/">     &#x1F517; https://todo-board-ankit.netlify.app/
   </a>
 </div>  -->
 
