@@ -163,13 +163,13 @@ Below is the list of projects and their respective links:
 </div> 
 
 
-<!-- ### Project 17: Todo Board
+### Project 18: Food Zone
 
 <div style="display: flex; justify-content: space-between; align-items: center; gap:2rem">
-    <img src="17_todo_board\todoboard.png" alt="Project 17" style="width: 200px; height: auto; margin-right: 20px;">
-    <a href="https://todo-board-ankit.netlify.app/">     &#x1F517; https://todo-board-ankit.netlify.app/
+    <img src="18_food_zone\foodzone.gif" alt="Project 18" style="width: 200px; height: auto; margin-right: 20px;">
+    <a href="https://food-zone-react-ankit.netlify.app/">     &#x1F517; https://food-zone-react-ankit.netlify.app/
   </a>
-</div>  -->
+</div> 
 
 
 
