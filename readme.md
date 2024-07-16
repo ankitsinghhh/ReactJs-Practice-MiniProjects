@@ -172,6 +172,24 @@ Below is the list of projects and their respective links:
 </div> 
 
 
+### Project 19: React Router
+
+<div style="display: flex; justify-content: space-between; align-items: center; gap:2rem">
+    <img src="19_react_router\reactrouter.gif" alt="Project 19" style="width: 200px; height: auto; margin-right: 20px;">
+    <a href="https://react-router-ankit.netlify.app/">     &#x1F517; https://react-router-ankit.netlify.app/
+  </a>
+</div> 
+
+
+<!-- ### Project 20: React Router
+
+<div style="display: flex; justify-content: space-between; align-items: center; gap:2rem">
+    <img src="19_react_router\reactrouter.gif" alt="Project 20" style="width: 200px; height: auto; margin-right: 20px;">
+    <a href="https://react-router-ankit.netlify.app/">     &#x1F517; https://react-router-ankit.netlify.app/
+  </a>
+</div>  -->
+
+
 
 
 
